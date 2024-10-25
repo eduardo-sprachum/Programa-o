@@ -1,5 +1,18 @@
 body{
     background-color: rgb(201, 201, 201);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#container {
+    display: flex;
+}
+
+.cartao {
+    margin: 1rem 1rem;
+    background-color: burlywood;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
 }
 
 footer{
@@ -13,12 +26,4 @@ footer{
 footer p{
     text-align: center;
     font-size: 1.0rem;
-}
-
-.cartao {
-    margin: 1rem 1rem;
-    background-color: burlywood;
-    height: 20rem;
-    flex-grow: 1;
-    flex-basis: calc(33% - 6rem);
 }
